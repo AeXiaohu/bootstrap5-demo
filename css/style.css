@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+.img-skewed-start .img-skewed-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(-35deg) rotateX(15deg);
+}
+.img-skewed-start {
+    perspective-origin: 0;
+}
+.img-skewed{
+    perspective: 1500px;
+    transform-style: preserve-3d;
+}
+.footer{
+    background-color: rgb(199, 199, 199);
+}
+
+
+
+
+
